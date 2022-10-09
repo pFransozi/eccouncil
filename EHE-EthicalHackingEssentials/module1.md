@@ -99,3 +99,29 @@ Motives behind information secuirty attacks:
 organization’s business operations, reputation, and profit. It is difficult to figure out an insider attack. Examples: eavesdroping and wiretapping, theft of physical devices, social engineering, data theft and spoliation, pod slurping, planting keyloggers, backdoors, malware, theft of physical devices and planting keyloggers, backdoors, and malware.
 
 **Distribution attacks** occur when attackers tamper with hardware or software prior to instalation. Attackers tamper with the hardware or software at its source or in transit.
+
+## Information Security Attack Vectors
+
+An vector is a way through an attacker can gain access to a computer or network server to deliver a payload or seek a malicious outocme.
+
+* **cloud computing theats**: cloud computing is a on-demand delivery of IT capabilities in which IT infrastructure and applications are provided to subscribers as a service **over a network**. Clientes can store sensitive information on the cloud.
+
+* **advanced persistent threats (APTs)**: it is an attack that focuses on stealing information from the victim machine without its user being aware of it. These attacks are generally targeted at large companies and government networks. Because **APT attacks are slow in nature**, **their effect on computer performance and Internet connections is
+negligible**. **APTs exploit vulnerabilities in the applications running on computers, operating systems, and embedded systems**.
+
+* **viruses and worms**: they are the most prevalent networking threats. A virus is a self-replicating program that produces a copy of itself by attaching to another computer program, boot sector, or document.  A worm is a malicious program that replicates, executes, and spreads across network connections.
+
+* **ransomware**: it is a type of a malware that restricts access to the computer system's files and folders and demands an online ransom payment spread via malicious attachments to email messagens, infected software applications, infected disks, or compromised websites.
+
+* **mobile threats**: mobiles has became a target for attackers due to the increased adoption of smartphones for business and personal use, and their comparatively fewer security controls.
+
+* botnet: it is a huge network of compromised sustems used by attackers to perform DoS attacks. In a botnet, bots perform tasks such as uploading viruses, sending mails with botnets attached to them, stealing data. Antivirus programs might fail to find spyware or botnets. Hence, it is essential to deploy programs specifically designed to find and eliminate such threats.
+
+* **insider attack**: it is an attack by someone **from within an organization who has authorized access to its network and is aware of the network architecture**.
+
+* **phishing**: it refers to the practice of sending an illegitimate email falsely claiming to be from a legitimate site in an attempt to acquire a user's personal or account information. Attackers perform phishing attacks by distributing malicious links via some communication channel or mails to obtain private information such as account numbers, credit card numbers, mobile numbers, etc. from the victim. Attackers design emails to lure victims in such a way that they appear to be from some legitimate source or at times
+they send malicious links that resemble a legitimate website.
+
+* **Web application threats**: Attacks such as **SQL injection and cross-site scripting** has made web applications a favorable target for attackers to steal credentials, set up phishing site, or acquire private information. Most of these attacks are the result of flawed coding and improper sanitization of input and output data from the web application. Web application attacks can threaten the performance of the website and hamper its security.
+
+* **IoT threats**: IoT devices connected to the Internet **have little or no security**, which makes them **vulnerable to various types of attacks**. These devices include many software applications that are *used to access the device remotely*. Due to hardware constraints such as memory, battery, etc. these **IoT applications do not include complex security mechanisms to protect the devices from attacks**. These drawbacks make IoT devices more vulnerable and allow attackers to access the device remotely and perform various attacks.
