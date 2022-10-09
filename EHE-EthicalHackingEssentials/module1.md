@@ -37,3 +37,65 @@ The permeation of computers into both the routine workspace and daily life has l
 * Non-Repudiation: it is **a way to guarantee that the sender of a message cannot later deny having sent the message** and that **the recipient cannot deny having received the message**. Individuals and organizations use digital signatures to ensure non-repudiation.
 
 ### Security, Functionality, and Usability Triangle
+
+Generally, information systems must have to dealing with security, functionality and usability. The problem is that every time the weight of one of those aspects is increased, the importance of the other two are reduced.
+
+The ideia of the triangle is this: more security means less functionality and usability. Generally, the information systems weight more functionality and usability than security. Furthermore, each every year it increases the number of routine activities that are done through an information system and then each every year become more difficult for security professionals to allocate resources exclusively for securing systems.
+
+In the context of information security, **hacking is** defined as the exploitation of vulnerabilities of computer systems and networks and requires great proficiency, even though more and more automated tools and codes are available on the Internet. That phenomenon facilitates the way systems can be exploited, making it easier, and the knowledge curve required to perform such exploits has decreased.
+
+Increasingly networked environment makes it critical for security professionals to take countermeasures to prevent exploits that can result in data loss.
+
+Returning to triangle: 
+
+* functionality: the set of features provided by the system
+* usability: the gui components used to design the system for ease of use
+* security: restrictions imposed on accessing the components of the system.
+
+There's a strong relationship between those components.
+
+### Security Challenges
+
+* **Compliance to laws and regulations**;
+* **Lack of qualified and skilled cybersecurity professionals**;
+* **Distributed computing environment makes harder a centralizing security**;
+* **Complex IT infrastructure makes harder overseeing end-to-end processes**;
+* **Fragmented and complex privacy and data protection regulations**;
+* **Use of a serverless architecture and applications that rely on third-party cloud providers**;
+* Compliance issues and issues with data removal and retrieval due to the implementation of Bring Your Own Device (BYOD) policies in companies;
+* Relocation of sensitive data from legacy data centers to the cloud without proper configuration;
+* Weak links in supply-chain management;
+* Increase in cybersecurity risks such as data loss and unpatched vulnerabilities and errors due to the usage of shadow IT;
+* Shortage of research visibility and training for IT employees;
+
+### Motives, Goals, and Objectives of Information Security Attacks
+
+Information security attacks are motivates by the notion that a target system stores or processses something valuable, which leads to the threat of an attack on the system.
+
+Attacks = Motives (Goal) + Method + Vulnerability
+
+Motives behind information secuirty attacks:
+
+* disrupt business continuity
+* perform informatin theft
+* manipulating data
+* create fear and chaos by disrupting critical infrastructures
+* bring financial loss to the target
+* propagate religious or polical beliefs
+* achieve a state's military objectives
+* damage the reputation of the target
+* take revenge
+* demand ransom
+
+## Attacks
+
+**Passive Attacks** **do not tamper** with the data and **involve intercepting and monitoring network traffic** and **data flow on the target network**. **Reconnaissance is a kind of this type of attacks, using sniffers to detect the activity on the network**. It is difficult to detect when has no active interaction with the target system or network. Passive attacks allow attackers to capture the data or files being transmitted in the network without the consent of the user. For example, an attacker can obtain information such as unencrypted data in transit, clear-text credentials, or other sensitive information that is useful in performing active attacks. Examples: **sniffing, eavesdropping, footprinting, sniffing and eavesdropping, netowork traffic analysis, decryption of weakly encrypted traffic**.
+
+**Active attacks** tamper with data in transit or disrupt the communication or services between the systems to bypass or break into secured systems. Attackers launch attacks on the target system or network **by sending traffic actively that can be detected**. These attacks are performed on the target network to exploit the information in transit. **They penetrate or infect the target’s internal network and gain access to a remote system to compromise the internal network**. Examples: DoS, Bypassing protection mechanisms, Malware attacks (viruses, worms, ransomware), Modification of information, spoofing attacks, replay attacks, password-based attacks, MitM, session hijacking, DNS and ARP poisoning, compromised-key attack, Firewall and IDS attack, Profiling, arbritary code execution, privilege escalation, backdoor access, cryptography attacks, SQLi, xss attacks, directory traversal attacks, exploitation of application and OS software.
+
+**Close-in attacks** are performed when the attacker **is in close physical proximity with the target system or network in order to gather, modify, or disrupt access to information**. The main goal of performing this type of attack is to gather or modify information or disrupt its access. Examples: include social engineering: eavesdropping, shoulder surfing, dumpster diving.
+
+**Insider attacks** involve using privileged access to violate rules or intentionally cause a threat to the organization's information or information systems. An insider attack involves using **privileged access to violate rules** or **intentionally cause a threat to the organization’s information or information systems**. Insiders can easily bypass security rules, corrupt valuable resources, and access sensitive information. They misuse the organization’s assets to directly affect the confidentiality, integrity, and  availability of information systems. These attacks impact the
+organization’s business operations, reputation, and profit. It is difficult to figure out an insider attack. Examples: eavesdroping and wiretapping, theft of physical devices, social engineering, data theft and spoliation, pod slurping, planting keyloggers, backdoors, malware, theft of physical devices and planting keyloggers, backdoors, and malware.
+
+**Distribution attacks** occur when attackers tamper with hardware or software prior to instalation. Attackers tamper with the hardware or software at its source or in transit.
