@@ -125,3 +125,102 @@ they send malicious links that resemble a legitimate website.
 * **Web application threats**: Attacks such as **SQL injection and cross-site scripting** has made web applications a favorable target for attackers to steal credentials, set up phishing site, or acquire private information. Most of these attacks are the result of flawed coding and improper sanitization of input and output data from the web application. Web application attacks can threaten the performance of the website and hamper its security.
 
 * **IoT threats**: IoT devices connected to the Internet **have little or no security**, which makes them **vulnerable to various types of attacks**. These devices include many software applications that are *used to access the device remotely*. Due to hardware constraints such as memory, battery, etc. these **IoT applications do not include complex security mechanisms to protect the devices from attacks**. These drawbacks make IoT devices more vulnerable and allow attackers to access the device remotely and perform various attacks.
+
+## Information Security Laws and Regulations
+
+### PCI DSS
+
+Source: https://www.pcisecuritystandards.org
+
+For organizations that handle cardholder information. It offers standards and supporting materials to enhance payment card data security. PCI DSS applies to all entities involved in payment card processing, including merchants, processors, acquirers, issuers, and service providers, as well as all other entities that store, process, or transmit cardholder data.
+
+* High Level Overwiew
+    * Build and Maintain a Secure Network
+        * Install and maintain a firewall configuration to protect cardholder data
+        * Do not use vendor-supplied defaults for system passwords and other security parameters
+    * Protect Cardholder Data
+        * Protect stored cardholder data
+        * Encrypt transmission of cardholder data across open, public networks
+    * Maintain a Vulnerability Management Program
+        * Use and regularly update anti-virus software or programs
+        * Develop and maintain secure systems and applications.
+    * Implement Strong Access Control Measures
+        * Restrict access to cardholder data by business need to know
+        * Assign a unique ID to each person with computer access
+        * Restrict physical access to cardholder data
+    * Regularly Monitor and Test Networks
+        * Track and monitor all access to network resources and cardholder data
+        * Regularly test security systems and process
+    * Maintain an Information Security Policy
+        * Maintain a policy that addresses information security for all personnel.
+
+### ISO/IEC 27001:2013
+
+Source: https://www.iso.org
+
+It specifies the requirements for establishing, implementing, maintaining, and continually improving an information security management system within the context of an organization.
+
+It is intended to be suitable for several different uses, including:
+* Use within organizations to formulate security requirements and objectives
+* Use within organizations as a way to ensure that security risks are cost-effectively managed
+* Use within organizations to ensure compliance with laws and regulations
+* Defining new information security management processes
+* Identifying and clarifying existing information security management processes
+* Use by the management of organizations to determine the status of information security management activities
+* Implementing business-enabling information security
+* Use by organizations to provide relevant information about information security to customers
+
+### HIPAA Health Insurance Portability and Accountability Act
+
+Source: https://www.hhs.gov
+
+It protects the individually identifiable health information. The Security Rule specifies a series of **administrative**, **physical**, and **technical safeguards for covered entities and their business associates to use to ensure the confidentiality**, **integrity**, and **availability** of electronically protected health information.
+
+HIPAA’s Administrative Simplification Statute and Rules:
+* Electronic Transactions and Code Set Standards: it designated certain types of organization as covered entities: health plans, health care claringhouses, health care providers. There are certain standard transactions for the Eletronic Data Interchange (EDI) of health care data. Under HIPAA, a covered entity must use the adopted standard: ASC, X12N, NCPDP.
+* Privacy Rule: standards to protect people’s medical
+records and other personal health information and applies to health plans, health care clearinghouses, and health care providers that conduct certain health care transactions
+electronically. **The rule requires appropriate safeguards to protect the privacy of personal health information.** It sets limits and conditions on the uses and disclosures
+that may be made of such information without patient authorization. The rule also gives patients’ rights over their health information, including the right to examine and obtain a copy of their health records and to request corrections.
+* Security Rule: to protect individuals’ electronic personal health information that is **created**, **received**, **used**, or maintained by a covered entity. The Security Rule requires appropriate administrative, physical, and technical safeguards to ensure the confidentiality, integrity, and security of electronically protected health information.
+* Employer Identifier Standard: The HIPAA requires that each employer has a standard national number that identifies
+them on standard transactions.
+* National Provider Identifier Standard (NPI): The National Provider Identifier (NPI) is a HIPAA Administrative Simplification Standard. The NPI is a unique identification number assigned to covered health care providers. Covered health care providers and all health plans and health care clearinghouses must use the NPIs in the administrative and financial transactions adopted under HIPAA. The NPI is a 10-position, intelligence-free numeric identifier (10-digit number). This means that the numbers do not carry other information about healthcare providers, such as the state in which they live or their medical specialty.
+* Enforcement Rule: The HIPAA Enforcement Rule contains provisions relating to compliance and investigation, as well as the imposition of civil monetary penalties for violations of the HIPAA Administrative Simplification Rules and procedures for hearings.
+
+## Sarbanes Oxley Act
+
+Source: https://www.sec.gov
+
+to protect the public and investors by increasing the accuracy and reliability of corporate disclosures. This act does not explain how an organization must store records but describes the records that organizations must store and
+the duration of their storage.
+
+The key requirements and provisions of SOX are organized into 11 titles:
+
+1. Public Company Accounting Oversight Board (PCAOB)
+2. Auditor Independence
+3. Corporate Responsibility
+4. Enhanced Financial Disclosures
+5. Analyst Conflicts of Interest
+6. Commission Resources and Authority
+7. Studies and Reports
+8. Corporate and Criminal Fraud Accountability
+9. White-Collar-Crime Penalty Enhancement
+10. Corporate Tax Returns
+11. Corporate Fraud Accountability
+
+## The Digital Millennium Copyright Act (DMCA)
+
+the DMCA defines legal prohibitions against circumvention of the technological protection measures employed by copyright owners to protect their works, and against the removal or alteration of copyright management information. The DMCA contains five titles:
+
+## The Federal Information Security Management Act (FISMA)
+
+Source: https://csrc.nist.gov
+
+## General Data Protection Regulation (GDPR)
+
+Source: https://gdpr.eu
+
+## Data Protection Act 2018 (DPA)
+
+Source: https://www.legislation.gov.uk
